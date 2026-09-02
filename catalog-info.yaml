@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: techdocs-test
+  description: Markdown の Admonitions 内に HTML テーブルを埋め込めるかを検証するサンプル TechDocs
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: guests
