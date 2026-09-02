@@ -1,0 +1,10 @@
+site_name: TechDocs HTML in Admonitions Sample
+site_description: Markdown の Admonitions 内に HTML のテーブルタグを含められるかを検証するサンプル TechDocs
+
+nav:
+  - Home: index.md
+  - Admonitions × HTML テーブル: admonitions-html-table.md
+  - 検証結果まとめ: findings.md
+
+plugins:
+  - techdocs-core
